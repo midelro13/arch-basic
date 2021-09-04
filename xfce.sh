@@ -20,7 +20,7 @@ makepkg -si --noconfirm
 #pikaur -S --noconfirm auto-cpufreq
 #sudo systemctl enable --now auto-cpufreq
 
-sudo pacman -S --noconfirm xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings xfce4 xfce4-goodies firefox simplescreenrecorder arc-gtk-theme arc-icon-theme obs-studio vlc
+sudo pacman -S xorg lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings xfce4 xfce4-goodies firefox simplescreenrecorder arc-gtk-theme arc-icon-theme obs-studio vlc
 
 sudo systemctl enable lightdm
 
